@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       
        {/* Content */}
-      <div className="mx-auto mt-6 max-w-sm text-center font-[family-name:var(--font-montserrat)] font-semibold text-base leading-6 px-6">
+      <div className="mx-auto mt-4 max-w-sm text-center font-[family-name:var(--font-montserrat)] font-semibold text-sm sm:text-base leading-6 px-6">
         <p>
           A long-term passion project to build the most satisfying buggy to drive.
         </p>
@@ -32,7 +32,7 @@ export default function Home() {
       </div>
 
       {/* Website */}
-        <div className="mt-16 bg-black px-5 py-4 text-sm text-white">
+        <div className="mt-12 bg-black px-5 py-4 text-sm text-white">
           <p>
           <a
             href="https://kishorkarthik.github.io/"
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="px-2 py-10 text-center text-sm text-black/75 bg-blue-50">
+        <footer className="px-2 py-10 text-center text-sm text-black/75 bg-slate-50">
           <p>GitHub</p>
           <a
             href="https://github.com/kishorkarthik/MudRox"
