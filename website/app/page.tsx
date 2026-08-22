@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f7f5]">
+    <main className="min-h-screen bg-slate-50">
        {/* Hero */}
       <div className="mx-auto w-full max-w-3xl px-10 py-10">
         <Image
@@ -26,13 +26,13 @@ export default function Home() {
           A 2D off-road driving game built around satisfying vehicle physics.
         </p>
 
-        <p className="mt-16">
+        <p className="mt-20">
            🚧 Early development.
         </p>
       </div>
 
       {/* Website */}
-        <div className="mt-12 bg-black px-5 py-4 text-sm text-white">
+        <div className="mt-36 bg-black px-5 py-4 text-sm text-white">
           <p>
           <a
             href="https://kishorkarthik.github.io/"
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="px-2 py-10 text-center text-sm text-black/75 bg-slate-50">
+        <footer className="px-2 py-10 text-center text-sm text-black/75">
           <p>GitHub</p>
           <a
             href="https://github.com/kishorkarthik/MudRox"
